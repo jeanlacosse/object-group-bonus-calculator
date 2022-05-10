@@ -1,0 +1,24 @@
+@import 'reset.css';
+
+ul {
+    border: 1px solid red;
+    list-style-type: none;
+}
+
+.card {
+    border: 1px solid green;
+    margin: 12px;
+    padding-left: 20px;
+    background-color: rgba(4, 255, 0, 0.291);
+    border-radius: 12px;
+    max-width: 60%;
+    transition: 0.5s;
+    box-shadow: 0 4px 4px grey;
+}
+
+.card:hover {
+    background-color: rgba(1, 71, 0, 0.291);
+    box-shadow: 0 8px 8px grey;
+}
+
+
