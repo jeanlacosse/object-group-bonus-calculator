@@ -51,18 +51,6 @@ function loopEmp(employees) {
     let updatedEmployee = updateEmp(employee);
     console.log('Updated emp:', updatedEmployee);
     allEmp.push(updatedEmployee);
-
-//     let tacos = (`<li>
-//   <div>
-//     <h2 id="employeeName">${updatedEmployee.name}</h2>
-//     <p id="employeeBonus">${updatedEmployee.bonusPercentage}</p>
-//     <p id="employeeComp">${updatedEmployee.totalCompensation}</p>
-//     <p id="totalBonus">${updatedEmployee.totalBonus}</p>
-//   </div>
-// </li>`);
-//     let empList = document.getElementById('employeeList');
-//     // console.log(tacos)
-//     empList.insertAdjacentHTML('beforeend', tacos);
   }
   return allEmp;
 }
